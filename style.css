@@ -195,6 +195,7 @@
   .flag {
     background: rgb(255,255,255);
     z-index: 15;
+    /* border-radius: 5px; */
   }
   
   .direction-l .flag:before,
@@ -211,6 +212,8 @@
     border-radius: 10px;
     border: 4px solid rgb(255,80,80);
     z-index: 10;
+    /* border: solid transparent; */
+    /* border-radius: 5px; */
   }
   
   .direction-l .flag:after,
@@ -260,7 +263,7 @@
     position: relative;
     margin: 1em 1em 0 1em;
     padding: 1em;
-    
+    border-radius: 10px;
     z-index: 15;
   }
   
