@@ -322,7 +322,16 @@ html {
 body{
     /* width: 100vw; */
     height: 100vh;
-    background-image: url(img/bg5.jpeg);
+    background-image: url(img/bg12.jpeg) ;
+    
+    /* -webkit-filter: blur(5px); */
+    /* -moz-filter: blur(5px); */
+    /* -o-filter: blur(5px); */
+    /* -ms-filter: blur(5px); */
+    /* filter: blur(8px); */
+    /* backdrop-filter : blur(3px); */
+    
+    
     /* background: rgb(184,249,250);
     background: linear-gradient(0deg, rgba(184,249,250,1) 0%, rgba(254,230,179,1) 100%); */
     /* background-repeat: no-repeat;
@@ -336,7 +345,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .bismillah{
-    padding: 15px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 370px;
+  /* min-width: 100%; */
 }
 .salluuu{
   font-family: 'Great Vibes', cursive !important;
