@@ -322,7 +322,7 @@ html {
 body{
     /* width: 100vw; */
     height: 100vh;
-    background-image: url(img/bg12.jpeg) ;
+    background-image: url(img/bg16.JPEG) ;
     
     /* -webkit-filter: blur(5px); */
     /* -moz-filter: blur(5px); */
@@ -343,6 +343,7 @@ body{
     background-attachment: fixed;
     line-height: 1.6em;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 .bismillah{
   display: block;
